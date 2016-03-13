@@ -17,7 +17,6 @@ import {Modal, Link, reducer} from 'rdx-ui-modal'
 import from 'rdx-ui-modal/styles/modal.scss'
 
 //2. create component
-
 <div>
   <Modal name='componentId' title='My title'>
     Lorem ipsum set dolorem
