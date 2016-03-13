@@ -23,7 +23,7 @@ import from 'rdx-ui-modal/styles/modal.scss'
     Lorem ipsum set dolorem
   </Modal>
 
-  <ModalLink name='componentId'>Open window</ModalLink>
+  <Link name='componentId'>Open window</Link>
 </div>
 
 //3. register reducer
