@@ -10,7 +10,7 @@ npm install rdx-ui-modal
 
 ## Usage
 
-```xml
+```javascript
 import {Modal, Link, reducer} from 'rdx-ui-modal'
 
 //1. import default styles
