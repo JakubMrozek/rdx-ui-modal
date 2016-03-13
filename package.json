@@ -1,7 +1,7 @@
 {
   "name": "rdx-ui-modal",
-  "version": "0.0.1",
-  "description": "Customizable modals for redux react apps.",
+  "version": "0.1.0",
+  "description": "Modals for redux react apps.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 # rdx-ui-modal
 
-Customizable modal window for react redux app.
+Modal window for react redux app.
 
 ## Install
 
