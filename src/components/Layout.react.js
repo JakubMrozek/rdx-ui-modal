@@ -6,6 +6,7 @@ import Body from './Body.react'
 import Content from './Content.react'
 import Container from './Container.react'
 import IsVisible from './IsVisible.react'
+import Close from './Close.react'
 
 
 const Layout = ({title, children, ...props}) => (
@@ -18,6 +19,9 @@ const Layout = ({title, children, ...props}) => (
         <Body>
           {children}
         </Body>
+        <Close {...props}>
+          Zavřít
+        </Close>
       </Content>
     </Container>
   </IsVisible>

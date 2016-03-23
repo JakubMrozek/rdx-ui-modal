@@ -1,6 +1,6 @@
 {
   "name": "rdx-ui-modal",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Modals for redux react apps.",
   "main": "lib/index.js",
   "repository": {
