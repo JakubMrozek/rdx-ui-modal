@@ -9,7 +9,7 @@ import IsVisible from './IsVisible.react'
 import Close from './Close.react'
 
 
-const Layout = ({title, children, ...props}) => (
+const Layout = ({title, children, disableCloseButton, ...props}) => (
   <IsVisible {...props}>
     <Container {...props}>
       <Content>
@@ -19,9 +19,7 @@ const Layout = ({title, children, ...props}) => (
         <Body>
           {children}
         </Body>
-        <Close {...props}>
-          Zavřít
-        </Close>
+        {!disableCloseButton ? <Close {...props}>Zavřít</Close> : ''}
       </Content>
     </Container>
   </IsVisible>

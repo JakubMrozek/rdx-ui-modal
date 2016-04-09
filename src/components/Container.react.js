@@ -9,8 +9,8 @@ function closeOnClick(name, closeModal) {
   }
 }
 
-const Container = ({children, name, closeModal}) => (
-  <div className='modal' onClick={closeOnClick(name, closeModal)} data-clickcatcher='true'>
+const Container = ({children, name, disableHideOnClick, closeModal}) => (
+  <div className='modal' onClick={!disableHideOnClick && closeOnClick(name, closeModal)} data-clickcatcher='true'>
     {children}
   </div>
 )
